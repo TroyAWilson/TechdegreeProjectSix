@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Raleway, sans-serif; }
-  @media (min-width: 720px) {
+  @media (min-width: 768px) {
     body {
       margin: 25px 270px; } }
 
