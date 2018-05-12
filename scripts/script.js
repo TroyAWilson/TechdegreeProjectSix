@@ -11,3 +11,17 @@
 //   span1.sibling.addClass == "orangeText"//gives the orange text to the next span
 // }
 // }
+videoPlayer = document.getElementById("myVideo");
+
+function videoStartCheck(){
+    $('.spanStart').addClass('currentText');
+}
+
+$(videoPlayer).on('click', ()=>{
+  videoStartCheck();
+})
+
+
+// $('.video').on('click', function() {
+//     $('span1').addClass('currentText');
+// });

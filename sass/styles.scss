@@ -3,13 +3,18 @@
 }
 
 body{
-  margin:0;
+  // margin:25px 270px;
+  margin: 0;
   padding:0;
-  text-align: center;
+  // text-align: center;
   font-family: Raleway, sans-serif;
+
+  @media(min-width: 720px){
+     margin:25px 270px;
+  }
 }
-.mejs__player{
-  // max-width: 100%;
+p{
+  margin:25px;
 }
 
 .currentText{

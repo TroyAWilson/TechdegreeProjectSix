@@ -4,8 +4,13 @@
 body {
   margin: 0;
   padding: 0;
-  text-align: center;
   font-family: Raleway, sans-serif; }
+  @media (min-width: 720px) {
+    body {
+      margin: 25px 270px; } }
+
+p {
+  margin: 25px; }
 
 .currentText {
   color: orange; }
